@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #0f062b; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 no-repeat top center;
+   background: #0a192f no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -59,14 +59,14 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: rgb(255, 254, 254);
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 3px rgb(11, 11, 11);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: rgb(255, 254, 254);
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -87,7 +87,7 @@ header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 header .social li {
    display: inline-block;
@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #14305b;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -198,12 +198,14 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #ffffff;
    margin-bottom: 12px;
+   text-shadow: 0px 1px 3px rgb(11, 11, 11);
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #fff;
+   text-shadow: 0px 1px 3px #11ABB0;
 }
 #about .profile-pic {
    position: relative;
